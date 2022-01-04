@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    options {
-        skipDefaultCheckout()
-    }
+    
     
     stages {
         stage ('shell') {
